@@ -14,5 +14,6 @@
 <%@include file="/common/menu.jsp"%>
 <h1>首页</h1>
   hello git
+git
 </body>
 </html>
