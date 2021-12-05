@@ -42,7 +42,7 @@
             <td>${book.sales}</td>
             <td>${book.stock}</td>
             <td>${book.author}</td>
-            <td><a href="">编辑</a></td>
+            <td><a href="http://192.168.1.7:8080/servlet/bookmangerservlet?action=getbook&id=${book.id}">编辑</a></td>
             <td><a class="deleteclass" href="http://192.168.1.7:8080/servlet/bookmangerservlet?action=delete&id=${book.id}">删除</a></td>
         </tr>
     </c:forEach>
