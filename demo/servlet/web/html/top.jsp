@@ -14,5 +14,6 @@
 <%@include file="/common/menu.jsp"%>
 <h1>首页</h1>
 <a href="/servlet/html/admin.jsp">管理者画面</a>
+
 </body>
 </html>

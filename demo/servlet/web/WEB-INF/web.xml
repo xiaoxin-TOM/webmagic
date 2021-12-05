@@ -27,4 +27,12 @@
         <servlet-name>userservlet</servlet-name>
         <url-pattern>/userservlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>bookmangerservlet</servlet-name>
+        <servlet-class>com.web.manger.BookMangerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bookmangerservlet</servlet-name>
+        <url-pattern>/bookmangerservlet</url-pattern>
+    </servlet-mapping>
 </web-app>

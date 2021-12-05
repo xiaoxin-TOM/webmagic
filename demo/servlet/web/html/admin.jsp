@@ -12,6 +12,8 @@
 </head>
 <body>
 <h1>后台管理</h1>
-
+<a href="http://192.168.1.7:8080/servlet/bookmangerservlet?action=list">图书管理</a>
+<br>
+<a href="">别的管理</a>
 </body>
 </html>
